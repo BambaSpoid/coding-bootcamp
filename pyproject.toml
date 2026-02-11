@@ -1,0 +1,23 @@
+[project]
+name = "coding-bootcamp"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Mouhamadou Bamba DIOP [ext_diop004907 DRPS/PEX/SDN/SSD]",email = "MouhamadouBamba.DIOP@orange-sonatel.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "coding_bootcamp", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.2"
+ruff = "^0.15.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
