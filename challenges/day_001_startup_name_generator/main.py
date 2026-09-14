@@ -1,0 +1,5 @@
+print("Welcome to the Tech Alias Generator!\n")
+city_name = input("What is your favorite city?\n")
+personality_trait = input("Give one word that describes you?\n")
+tech_interest = input("What's your favorite tech field?\n")
+print("Your tech aliases could be: \n" + city_name + " " + personality_trait + " " + tech_interest + "\n" + tech_interest + " " + personality_trait + " " + city_name)
